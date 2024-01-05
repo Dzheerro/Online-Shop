@@ -1,12 +1,14 @@
 <mat-toolbar color="primary">
     <mat-toolbar-row>
-        <div class="toolbar no-select">
+        <div class="toolbar no-select" routerLink="">
             <mat-icon style="margin-right: 7px; margin-top: 3px;"> cloud </mat-icon>
             <span> Cloudlet's Shop  </span>
         </div>
       <span class="example-spacer"></span>
-      <div>
-        <mat-icon> delete </mat-icon>
+      <div class="toolbar no-select">
+      <button class="toolbar button" mat-flat-button> Main </button>
+      <button class="toolbar button" mat-flat-button> Products </button>
+      <button class="toolbar button" mat-flat-button> Shopping Cart </button>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>
