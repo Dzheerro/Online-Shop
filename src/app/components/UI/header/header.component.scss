@@ -1,0 +1,15 @@
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.toolbar {
+    display: flex;
+    text-align: center;
+}
+
+.no-select {
+    cursor: pointer;
+    user-select: none;
+}
+
