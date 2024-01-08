@@ -1,3 +1,40 @@
 {
-    
+    "products": [
+        {
+            "id": 1,
+            "title": "Macbook Pro 14",
+            "price": 1500,
+            "image": "assets/images/macbook.jpg",
+            "configure": {
+                "chip": "M3",
+                "SSD": "256 GB",
+                "memory": "16 GB",
+                "display": "Retina"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Macbook Pro 16",
+            "price": 2300,
+            "image": "assets/images/macbook.jpg",
+            "configure": {
+                "chip": "M3",
+                "SSD": "1000 GB",
+                "memory": "32 GB",
+                "display": "Retina"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Macbook Air 14",
+            "price": 1200,
+            "image": "assets/images/macbook.jpg",
+            "configure": {
+                "chip": "M3",
+                "SSD": "512 GB",
+                "memory": "18 GB",
+                "display": "Retina"
+            }
+        }
+    ]
 }

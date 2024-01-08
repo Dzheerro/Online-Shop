@@ -7,7 +7,7 @@ import { ProductDetailsComponent } from './components/product-details/product-de
 export const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'products', component: ProductsComponent},
-    {path: 'backet', component: BasketComponent},
+    {path: 'basket', component: BasketComponent},
     {path: 'product/:id', component: ProductDetailsComponent},
     
     {path: '**' , redirectTo: '', component: HomeComponent}
